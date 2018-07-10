@@ -5,7 +5,7 @@ import Util from '../util';
 export var QueryParamsForBackend = Ember.Object.extend({
   defaultKeyFor: function(key) {
     if (key === 'perPage') {
-      return 'per_page';
+      return 'per-page';
     }
     return null;
   },
